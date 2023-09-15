@@ -1,0 +1,21 @@
+.navbar-home{height:50px;border:1px solid var(--erreur);border-radius:8px;margin: 10px 10px;}
+.main-content-home{min-height: 70vh !important;}
+.main-content-home h1 {text-align: center;}
+.main-content-home strong {
+    text-transform: uppercase;
+    background:linear-gradient(-225deg, var(--tertiaire) 0%, var(--secondaire) 33%, var(--tertiaire) 66%, var(--secondaire) 100%);
+    color: var(--texte);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: changeBackgroundTitles 2s linear infinite;
+    background-size: 200% auto;
+}
+.avatar-container {width:300px;height:300px;border:1px solid var(--erreur);border-radius:50%;overflow:hidden;}
+.avatar{width:inherit;height:inherit;}
+.detailed-title{text-align:center;}
+
+@keyframes changeBackgroundTitles {
+    to {
+        background-position: 200% center;
+    }
+}
