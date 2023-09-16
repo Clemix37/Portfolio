@@ -1,7 +1,7 @@
 .navbar .bordure {padding:10px;background-color:var(--rgba-sombre-60);}
 .navbar {max-width: 600px;position:fixed;bottom:10px;height:70px;}
-.brand{width:200px;height:50px;}
+.brand{width:350px;height:75px;}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     .navbar-home .colonne:not(.colonne-brand) {display:none;}
 }

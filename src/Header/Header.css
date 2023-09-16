@@ -1,4 +1,4 @@
-.navbar-home{height:50px;border:1px solid var(--erreur);border-radius:8px;margin: 10px 10px;}
+.navbar-home{height:75px;border:1px solid var(--erreur);border-radius:8px;margin: 10px 10px;}
 .main-content-home{min-height: 70vh !important;}
 .main-content-home h1 {text-align: center;}
 .main-content-home strong {
