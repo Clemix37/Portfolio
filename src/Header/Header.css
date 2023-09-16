@@ -3,7 +3,7 @@
 .main-content-home h1 {text-align: center;}
 .main-content-home strong {
     text-transform: uppercase;
-    background:linear-gradient(-225deg, var(--tertiaire) 0%, var(--secondaire) 33%, var(--tertiaire) 66%, var(--secondaire) 100%);
+    background:linear-gradient(-225deg, var(--tertiaire) 0%, var(--secondaire) 50%, var(--tertiaire) 100%);
     color: var(--texte);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;

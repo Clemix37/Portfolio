@@ -1,6 +1,7 @@
 import "./App.css";
 import { Contact } from "./Contact/Contact";
-import { Home } from "./Home/Home";
+import { Footer } from "./Footer/Footer";
+import { Header } from "./Header/Header";
 import { NavBar } from "./NavBar/NavBar";
 import { Projects } from "./Projects/Projects";
 import { UsefulLinks } from "./UsefulLinks/UsefulLinks";
@@ -12,9 +13,10 @@ function App() {
 			<div className="colonne align-items-center">
 				<UsefulLinks></UsefulLinks>
 				<NavBar></NavBar>
-				<Home></Home>
+				<Header></Header>
 				<Contact></Contact>
 				<Projects></Projects>
+				<Footer></Footer>
 			</div>
 		</div>
 	);

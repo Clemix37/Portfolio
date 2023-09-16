@@ -1,8 +1,8 @@
-import "./Home.css";
+import "./Header.css";
 import avatarLogo from "../assets/avatar/myAvatar.svg";
-import brand from "../assets/8590053054_d007980d-8772-49ab-843f-7f380f20d5ac.png";
+import brand from "../assets/brand.png";
 
-export function Home() {
+export function Header() {
 
     return (
         <div id="home" className="ligne">
@@ -14,10 +14,14 @@ export function Home() {
                         </div>
                     </div>
                     <div className="colonne justify-content-center">
-                        <div className="ligne justify-content-center">TEXT / NOTHING</div>
+                        <div className="ligne justify-content-center">
+                            &nbsp;
+                        </div>
                     </div>
                     <div className="colonne justify-content-center">
-                        <div className="ligne justify-content-center">??</div>
+                        <div className="ligne justify-content-center">
+                            &nbsp;
+                        </div>
                     </div>
                 </div>
                 <div className="ligne main-content-home">
@@ -25,9 +29,9 @@ export function Home() {
                         <div className="ligne justify-content-center">
                             <h1>
                                 <strong>Fullstack Developer</strong>
-                                <br /><span>/</span><br />
+                                <br /><span>&</span><br />
                                 <strong>Tech Lead</strong>
-                                <br /><span>/</span><br />
+                                <br /><span>&</span><br />
                                 <strong>Mentor</strong>
                             </h1>
                         </div>
@@ -42,8 +46,8 @@ export function Home() {
                     <div className="colonne">
                         <div className="ligne">
                             <h3 className="detailed-title">
-								I'm a software engineer specializing in building exceptional.
-								As a content creator, i teach programming in a funny and most of all understandable way.
+								I'm a software engineer specializing in building exceptional.<br />
+								As a content creator, i teach programming in a funny and most of all understandable way.<br />
 								It's been and it is still my passion since 2015 !
 							</h3>
                         </div>
