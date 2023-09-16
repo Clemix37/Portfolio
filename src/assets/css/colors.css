@@ -6,12 +6,13 @@
 	--texte: #FFFFFF;
 	--sombre: #1F1F1F;
 	/* RGBA */
-	--rgba-primaire-80: rgba(26,26,26,80);
-	--rgba-primaire-60: rgba(26,26,26,60);
-	--rgba-secondaire-80: rgba(33,145,251,80);
-	--rgba-secondaire-60: rgba(33,145,251,60);
-	--rgba-tertiaire-80: rgba(203,238,243,80);
-	--rgba-tertiaire-60: rgba(203,238,243,60);
-	--rgba-sombre-80: rgba(31,31,31,80);
-	--rgba-sombre-60: rgba(31,31,31,60);
+	--rgba-primaire-0: rgba(26,26,26,0);
+	--rgba-primaire-80: rgba(26,26,26,0.8);
+	--rgba-primaire-60: rgba(26,26,26,0.6);
+	--rgba-secondaire-80: rgba(33,145,251,0.8);
+	--rgba-secondaire-60: rgba(33,145,251,0.6);
+	--rgba-tertiaire-80: rgba(203,238,243,0.8);
+	--rgba-tertiaire-60: rgba(203,238,243,0.6);
+	--rgba-sombre-80: rgba(31,31,31,0.8);
+	--rgba-sombre-60: rgba(31,31,31,0.6);
 }

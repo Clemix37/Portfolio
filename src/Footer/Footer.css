@@ -1,1 +1,2 @@
 #footer {height:250px;background-color:var(--sombre);border-top-left-radius: 8px;border-top-right-radius: 8px;}
+#footer span {color:var(--secondaire);}

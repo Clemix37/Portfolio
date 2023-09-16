@@ -46,9 +46,9 @@ export function Header() {
                     <div className="colonne">
                         <div className="ligne">
                             <h3 className="detailed-title">
-								I'm a software engineer specializing in building exceptional.<br />
-								As a content creator, i teach programming in a funny and most of all understandable way.<br />
-								It's been and it is still my passion since 2015 !
+								I'm a software engineer specializing in building <em>clean</em>, <em>elegant</em> and <em>efficient</em> code.<br />
+								As a content creator, i teach programming in a <em>funny</em> and most of all <em>understandable</em> way.<br />
+								It's been and it is still my <em>passion</em> since 2015 !
 							</h3>
                         </div>
                     </div>

@@ -1,11 +1,25 @@
 import "./NavBar.css";
+import { useState } from "react";
 
 export function NavBar() {
+    const [hasScrolled, setHasScrolled] = useState(false);
+
+    const defineScrollVariable = (toSetScrolled = true):void => {
+        setHasScrolled(toSetScrolled);
+    };
+    
+    document.addEventListener("scroll", () => defineScrollVariable(true));
+
     return (
         <div className="ligne navbar">
-            <a className="colonne bordure secondaire" href="#">Home</a>
-            <a className="colonne bordure tertiaire" href="#contact">Contact</a>
-            <a className="colonne bordure erreur" href="#projects">Projects</a>
+            {
+                hasScrolled ? (
+                    <a className="colonne align-items-center btn btn-rounded" href="#" onClick={() => defineScrollVariable(false)}>Home</a>
+                ) : (<></>)
+            }
+            <a className="colonne align-items-center btn btn-rounded" href="#about">About</a>
+            <a className="colonne align-items-center btn btn-rounded" href="#projects">Projects</a>
+            <a className="colonne align-items-center btn btn-rounded" href="#contact">Contact</a>
         </div>
     );
 }

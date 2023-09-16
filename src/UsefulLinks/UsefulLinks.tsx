@@ -14,6 +14,9 @@ export function UsefulLinks() {
             <IconButton aria-label="Code" color="secondary" title="Twitter" href="https://twitter.com/WebdevCyber" target="_blank">
                 <i className="fa-brands fa-twitter"></i>
             </IconButton>
+            <IconButton aria-label="Code" color="secondary" title="Linkedin" href="https://www.linkedin.com/in/clement-theret/" target="_blank">
+                <i className="fa-brands fa-linkedin"></i>
+            </IconButton>
             {/* <IconButton aria-label="Code" color="secondary" title="Other">
                 <CodeRoundedIcon />
             </IconButton>

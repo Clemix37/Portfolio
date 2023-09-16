@@ -7,7 +7,7 @@ export function Footer(){
         <div className="ligne" id="footer">
             <div className="colonne">
                 <div className="ligne">
-                    CyberWebDev &copy; - {annee}
+                    <span>CyberWebDev</span>&nbsp; &copy; - {annee}
                 </div>
             </div>
         </div>
