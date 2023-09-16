@@ -8,17 +8,17 @@ export function Home() {
         <div id="home" className="ligne">
             <div className="colonne">
                 <div className="ligne navbar-home width-80 align-self-center">
-                <div className="colonne">
-                    <div className="ligne justify-content-center">
-						<img src={brand} className="brand" alt="CyberWebDev" />
-					</div>
-                </div>
-                <div className="colonne justify-content-center">
-                    <div className="ligne justify-content-center">TEXT / NOTHING</div>
-                </div>
-                <div className="colonne justify-content-center">
-                    <div className="ligne justify-content-center">??</div>
-                </div>
+                    <div className="colonne colonne-brand">
+                        <div className="ligne justify-content-center">
+                            <img src={brand} className="brand" alt="CyberWebDev" />
+                        </div>
+                    </div>
+                    <div className="colonne justify-content-center">
+                        <div className="ligne justify-content-center">TEXT / NOTHING</div>
+                    </div>
+                    <div className="colonne justify-content-center">
+                        <div className="ligne justify-content-center">??</div>
+                    </div>
                 </div>
                 <div className="ligne main-content-home">
                     <div className="colonne">
