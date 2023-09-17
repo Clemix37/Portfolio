@@ -1,28 +1,22 @@
 import { IconButton } from "@mui/material";
 import "./UsefulLinks.css";
-// import CodeRoundedIcon from "@mui/icons-material/CodeRounded";
+import Links from "../Links";
 
 export function UsefulLinks() {
     return (
         <div className="colonne" id="useful-links">
-            <IconButton aria-label="Code" color="secondary" title="Youtube" href="https://www.youtube.com/channel/UCr6FJ-upHVcTPpC0ZJdpW0w" target="_blank">
+            <IconButton aria-label="Youtube" color="secondary" title="Youtube" href={Links.youtube} target="_blank">
                 <i className="fa-brands fa-youtube"></i>
             </IconButton>
-            <IconButton aria-label="Code" color="secondary" title="Github" href="https://github.com/Clemix37" target="_blank">
+            <IconButton aria-label="Github" color="secondary" title="Github" href={Links.github} target="_blank">
                 <i className="fa-brands fa-github"></i>
             </IconButton>
-            <IconButton aria-label="Code" color="secondary" title="Twitter" href="https://twitter.com/WebdevCyber" target="_blank">
+            <IconButton aria-label="Twitter" color="secondary" title="Twitter" href={Links.twitter} target="_blank">
                 <i className="fa-brands fa-twitter"></i>
             </IconButton>
-            <IconButton aria-label="Code" color="secondary" title="Linkedin" href="https://www.linkedin.com/in/clement-theret/" target="_blank">
+            <IconButton aria-label="Linkedin" color="secondary" title="Linkedin" href={Links.linkedin} target="_blank">
                 <i className="fa-brands fa-linkedin"></i>
             </IconButton>
-            {/* <IconButton aria-label="Code" color="secondary" title="Other">
-                <CodeRoundedIcon />
-            </IconButton>
-            <IconButton aria-label="Code" color="secondary" title="Github">
-                <i className="fa-brands fa-github"></i>
-            </IconButton> */}
         </div>
     );
 }
