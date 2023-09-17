@@ -1,0 +1,32 @@
+.card {
+    max-width: 550px;
+    min-width: 300px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #1e1e1e, #232323);
+    box-shadow: 20px 20px 60px #1c1c1c,
+        -20px -20px 60px #262626;
+    margin: 0 20px;
+    border: 1px solid var(--secondary-variation);
+}
+
+.card hr {
+    width: 25%;
+    margin: 0 37%;
+    border-color:var(--secondary);
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content .ligne {
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .card {margin: 20px 0;}
+}

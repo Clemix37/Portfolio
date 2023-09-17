@@ -9,17 +9,17 @@
 .main-content-home h1 {text-align: center;}
 .main-content-home strong {
     text-transform: uppercase;
-    background:linear-gradient(-225deg, var(--tertiaire) 0%, var(--secondaire) 50%, var(--tertiaire) 100%);
+    background:linear-gradient(-225deg, var(--tertiary) 0%, var(--secondary) 50%, var(--tertiary) 100%);
     color: var(--texte);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     animation: changeBackgroundTitles 2s linear infinite;
     background-size: 200% auto;
 }
-.avatar-container {width:300px;height:300px;border:1px solid var(--erreur);border-radius:50%;overflow:hidden;}
+.avatar-container {width:300px;height:300px;border:1px solid var(--secondary);border-radius:50%;overflow:hidden;}
 .avatar{width:inherit;height:inherit;}
 .detailed-title{text-align:center;}
-.detailed-title em {color:var(--secondaire);}
+.detailed-title em {color:var(--secondary);}
 
 @keyframes changeBackgroundTitles {
     to {

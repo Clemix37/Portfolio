@@ -1,4 +1,4 @@
-.bordure {border:2px solid var(--primaire);border-radius:8px;}
-.bordure.secondaire{border-color:var(--secondaire);}
+.bordure {border:2px solid var(--primary);border-radius:8px;}
+.bordure.secondary{border-color:var(--secondary);}
 .bordure.erreur{border-color:var(--erreur);}
-.bordure.tertiaire{border-color:var(--tertiaire);}
+.bordure.tertiary{border-color:var(--tertiary);}
