@@ -1,5 +1,5 @@
 .navbar .bordure {padding:10px;background-color:var(--rgba-sombre-60);}
-.navbar {max-width: 600px;position:fixed;bottom:10px;height:70px;background-color: var(--rgba-primary-80);}
+.navbar {max-width: 600px;position:fixed;bottom:10px;height:70px;background-color: var(--rgba-primary-80);z-index:1;}
 .brand{width:350px;height:75px;}
 
 .navbar .btn {
