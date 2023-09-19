@@ -38,7 +38,7 @@ export function Experience2021(){
                 </h2>
             </div>
             <div className="ligne">
-                <span>Developing the client needs of accountants</span>
+                <span>Developing the <em>client needs</em> of accountants</span>
             </div>
             <div className="ligne">
                 <span>ACD Groupe, Tours, France</span>
