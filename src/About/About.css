@@ -5,3 +5,66 @@
 @media screen and (max-width: 1000px) {
     #about .cards {flex-direction: column;}
 }
+
+.colonne-timeline {
+    margin-top: 20px;
+    border-right: 1px solid var(--rgba-secondary-60);
+}
+/* 
+.timeline .ligne {
+    min-height:100px
+} */
+
+.timeline * {color:var(--texte);}
+
+.timeline .timeline-page {display:flex;justify-content:center;align-items:center;width:100%;min-height:125px;cursor:pointer;}
+
+.timeline .timeline-page::before {width:100%;text-align: center;}
+
+.timeline .timeline-page.timeline-page-active {
+    border-right:1px solid var(--secondary-variation);
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    color:var(--secondary-variation);
+}
+
+/* .timeline {
+    height: 300px;
+}
+
+.timeline::before {
+    content: "";
+    position: relative;
+    left: 70%;
+    height: 100%;
+    width: 1px;
+    background-color: var(--rgba-secondary-60);
+}
+
+.timeline .timeline-page {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    opacity: 1;
+    background: transparent;
+    color: #d4a024;
+    position: relative;
+    display:block;
+}
+
+.timeline .timeline-page::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 69%;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: #d4a024;
+    transform: scale(0);
+    transition: 0.2s;
+}
+
+.timeline .timeline-page-active::before {
+    transform: scale(1);
+} */

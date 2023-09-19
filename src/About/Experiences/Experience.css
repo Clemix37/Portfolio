@@ -1,0 +1,5 @@
+.image-experience{max-width: 200px;max-height:300px;}
+
+#experience-content em {color:var(--secondary);}
+#experience-content .ligne {padding:0 10px;}
+#experience-content * {text-align:center;}

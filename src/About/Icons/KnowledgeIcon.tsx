@@ -1,5 +1,7 @@
-export function KnowledgeIcon(){
+export function KnowledgeIcon({marginLeft = true, marginRight = false} : {marginLeft: boolean, marginRight:boolean}){
+    const classes:string = 
+        `fa-solid fa-bars-progress color-secondary ${marginLeft ? "margin-left-icon" : ""} ${marginRight ? "margin-right-icon" : ""}`;
     return (
-        <i className="fa-solid fa-bars-progress color-secondary margin-left-icon"></i>
+        <i className={classes}></i>
     );
 }

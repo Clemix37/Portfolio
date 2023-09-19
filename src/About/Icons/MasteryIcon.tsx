@@ -1,5 +1,7 @@
-export function MasteryIcon(){
+export function MasteryIcon({marginLeft = true, marginRight = false} : {marginLeft: boolean, marginRight:boolean}){
+    const classes:string = 
+        `fa-regular fa-circle-check color-success ${marginLeft ? "margin-left-icon" : ""} ${marginRight ? "margin-right-icon" : ""}`;
     return (
-        <i className="fa-regular fa-circle-check color-success margin-left-icon"></i>
+        <i className={classes}></i>
     );
 }
