@@ -228,22 +228,7 @@ export function About(){
                         {
                             componentDisplayed
                         }
-                        {/* <div className="ligne">
-                            <h2>Final Year - Nao Project (17 yo)</h2>
-                        </div>
-                        <div className="ligne">
-                            <span>Voice and facial recognition project on the Nao robot</span>
-                        </div> */}
                     </div>
-                    {/* <div className="colonne">
-                        <div className="ligne">
-                            <div className="timeline"></div>
-                        </div>
-                    </div>
-                    <div className="colonne">
-                        <div className="ligne">&nbsp;</div>
-                        <div className="ligne">&nbsp;</div>
-                    </div> */}
                 </div>
             </div>
         </div>

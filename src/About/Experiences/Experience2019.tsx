@@ -44,21 +44,6 @@ export function Experience2019(){
                     <img className="image-experience" src={logoACD} />
                 </a>
             </div>
-            {/* <div className="ligne">
-                <h2>Final Year - Nao Project (17 yo)</h2>
-            </div>
-            <div className="ligne">
-                <span>Voice and facial recognition project on the Nao robot</span>
-            </div>
-            <div className="ligne">
-                <span>Made with :</span>
-                <span className="tag">
-                    <i className="fa-brands fa-python margin-right-icon color-yellow"></i>Python
-                </span>
-            </div>
-            <div className="ligne">
-                <img className="image-experience" src={nao} />
-            </div> */}
         </>
     );
 }

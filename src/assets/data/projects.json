@@ -1,0 +1,314 @@
+{
+    "projects":[
+        {
+            "id":0,
+            "name": "Voice & Face recognition",
+            "text": "Learning python in High School by building a final year project of voice and facial recognition with nao robot",
+            "image": {
+                "src": "./images/NAO.png"
+            },
+            "icon": null,
+            "lien": "",
+            "devs": [
+                {
+                    "language": "Python"
+                }
+            ]
+        },
+        {
+            "id":0,
+            "name": "Head or Tails",
+            "text": "Simple project where we flip a coin, and get a head or tails",
+            "image": {
+                "src": "./images/flip_coin.png"
+            },
+            "icon": null,
+            "lien": "https://cybers.onrender.com/projects/flip-coin",
+            "devs": [
+                {
+                    "language": "Javascript"
+                },
+                {
+                    "language": "HTML5"
+                },
+                {
+                    "language": "CSS3"
+                }
+            ]
+        },
+        {
+            "id":0,
+            "name": "Spinners",
+            "text": "I was learning how to do spinners in CSS, and custom them with colors with JavaScript",
+            "lien": "https://cybers.onrender.com/projects/spinners",
+            "image": {
+                "src": "./images/spinners.png"
+            },
+            "icon": {
+                "type": "fontawesome",
+                "class": "fa-solid fa-user"
+            },
+            "devs": [
+                {
+                    "language": "Javascript"
+                },
+                {
+                    "language": "HTML5"
+                },
+                {
+                    "language": "CSS3"
+                }
+            ]
+        },
+        {
+            "id":0,
+            "name": "Temperature converter",
+            "text": "Converting Farenheit in Celsius",
+            "lien": "https://cybers.onrender.com/projects/temp-converter",
+            "image": {
+                "src": "./images/temp_converter.png"
+            },
+            "icon": {
+                "type": "fontawesome",
+                "class": "fa-solid fa-user"
+            },
+            "devs": [
+                {
+                    "language": "Javascript"
+                },
+                {
+                    "language": "HTML5"
+                },
+                {
+                    "language": "CSS3"
+                }
+            ]
+        },
+        {
+            "id":0,
+            "name": "Password generator",
+            "text": "Generating passwords with custom options",
+            "lien": "https://cybers.onrender.com/projects/gen-pass",
+            "image": {
+                "src": "./images/pass_gen.png"
+            },
+            "icon": {
+                "type": "fontawesome",
+                "class": "fa-solid fa-user"
+            },
+            "devs": [
+                {
+                    "language": "Javascript"
+                },
+                {
+                    "language": "HTML5"
+                },
+                {
+                    "language": "CSS3"
+                }
+            ]
+        },
+        {
+            "id":0,
+            "name": "Grocery List",
+            "text": "Simple grocery list saved in localStorage",
+            "lien": "https://cybers.onrender.com/projects/my-grocery-list",
+            "image": {
+                "src": "./images/grocery_list.png"
+            },
+            "icon": {
+                "type": "fontawesome",
+                "class": "fa-solid fa-user"
+            },
+            "devs": [
+                {
+                    "language": "HTML5"
+                },
+                {
+                    "language": "CSS3"
+                },
+                {
+                    "language": "JavaScript"
+                },
+                {
+                    "language": "LocalStorage"
+                }
+            ]
+        },
+        {
+            "id":0,
+            "name": "Budget tracker",
+            "text": "Tracking expenses and budget",
+            "lien": "https://cybers.onrender.com/projects/my-balance-js",
+            "image": {
+                "src": "./images/budget_tracker.png"
+            },
+            "icon": {
+                "type": "fontawesome",
+                "class": "fa-solid fa-user"
+            },
+            "devs": [
+                {
+                    "language": "HTML5"
+                },
+                {
+                    "language": "CSS3"
+                },
+                {
+                    "language": "JavaScript"
+                },
+                {
+                    "language": "LocalStorage"
+                }
+            ]
+        },
+        {
+            "id":0,
+            "name": "Temporary todos",
+            "text": "Lists and todos saved in the local storage",
+            "lien": "https://cybers.onrender.com/projects/temporary-todos",
+            "image": {
+                "src": "./images/temp_todos.png"
+            },
+            "icon": {
+                "type": "fontawesome",
+                "class": "fa-solid fa-user"
+            },
+            "devs": [
+                {
+                    "language": "HTML5"
+                },
+                {
+                    "language": "CSS3"
+                },
+                {
+                    "language": "JavaScript"
+                },
+                {
+                    "language": "LocalStorage"
+                }
+            ]
+        },
+        {
+            "id":0,
+            "name": "Todo list",
+            "text": "List and todos saved in database NoSQL (mongoDB)",
+            "lien": "https://cybers.onrender.com/projects/todos",
+            "image": {
+                "src": "./images/my_tasks.png"
+            },
+            "icon": {
+                "type": "fontawesome",
+                "class": "fa-solid fa-user"
+            },
+            "devs": [
+                {
+                    "language": "HTML5"
+                },
+                {
+                    "language": "CSS3"
+                },
+                {
+                    "language": "NodeJS"
+                },
+                {
+                    "language": "Javascript"
+                },
+                {
+                    "language": "MongoDB"
+                }
+            ]
+        },
+        {
+            "id":0,
+            "name": "Cybers",
+            "text": "User Auth system, roles, saving images, creating notes etc",
+            "lien": "https://cybers.onrender.com/",
+            "image": {
+                "src": "./images/cybers.png"
+            },
+            "icon": {
+                "type": "fontawesome",
+                "class": "fa-solid fa-user"
+            },
+            "devs": [
+                {
+                    "language": "HTML5"
+                },
+                {
+                    "language": "CSS3"
+                },
+                {
+                    "language": "NodeJS"
+                },
+                {
+                    "language": "Javascript"
+                },
+                {
+                    "language": "MongoDB"
+                }
+            ]
+        },
+        {
+            "id":0,
+            "name": "Nation it !",
+            "text": "Re-creation of 'Cybers' but with React",
+            "lien": "https://nation-it.onrender.com/",
+            "image": {
+                "src": "./images/nation_it.png"
+            },
+            "icon": {
+                "type": "fontawesome",
+                "class": "fa-solid fa-user"
+            },
+            "devs": [
+                {
+                    "language": "HTML5"
+                },
+                {
+                    "language": "CSS3"
+                },
+                {
+                    "language": "NodeJS"
+                },
+                {
+                    "language": "React"
+                },
+                {
+                    "language": "Javascript"
+                },
+                {
+                    "language": "MongoDB"
+                }
+            ]
+        },
+        {
+            "id":0,
+            "name": "Portfolio",
+            "text": "Re-creation of my Portfolio with React & TypeScript",
+            "lien": "https://cyberwebdev.fr",
+            "image": null,
+            "icon": {
+                "type": "fontawesome",
+                "class": "fa-solid fa-user"
+            },
+            "devs": [
+                {
+                    "language": "HTML5"
+                },
+                {
+                    "language": "CSS3"
+                },
+                {
+                    "language": "TypeScript"
+                },
+                {
+                    "language": "React"
+                },
+                {
+                    "language": "Javascript"
+                }
+            ]
+        }
+    ]
+}
