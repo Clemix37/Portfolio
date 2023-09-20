@@ -284,6 +284,39 @@
         },
         {
             "id":0,
+            "name": "Do it !",
+            "text": "Lists and tasks filtered by no started, doing, and done saved in localStorage and installable as a PWA",
+            "lien": "https://clemix37.github.io/do-it/",
+            "image": {
+                "src": "./images/do_it.png"
+            },
+            "icon": {
+                "type": "fontawesome",
+                "class": "fa-solid fa-user"
+            },
+            "devs": [
+                {
+                    "language": "HTML5"
+                },
+                {
+                    "language": "CSS3"
+                },
+                {
+                    "language": "React"
+                },
+                {
+                    "language": "Javascript"
+                },
+                {
+                    "language": "LocalStorage"
+                },
+                {
+                    "language": "PWA"
+                }
+            ]
+        },
+        {
+            "id":0,
             "name": "Portfolio",
             "text": "Re-creation of my Portfolio with React & TypeScript",
             "lien": "https://cyberwebdev.fr",
