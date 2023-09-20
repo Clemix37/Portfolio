@@ -103,6 +103,11 @@ export function About(){
                                 </div>
                                 <div className="ligne">
                                     <span className="tag">
+                                        NextJS <KnowledgeIcon marginLeft={true} marginRight={false}></KnowledgeIcon>
+                                    </span>
+                                </div>
+                                <div className="ligne">
+                                    <span className="tag">
                                         Sass <KnowledgeIcon marginLeft={true} marginRight={false}></KnowledgeIcon>
                                     </span>
                                 </div>
