@@ -4,11 +4,14 @@ export function Experience(
     {year, component, isActive, setYearDisplayed, setComponentDisplayed}:
     {
         children: never[],
+        year:number, 
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        year:number,component:any,isActive:boolean,
+        component:any, 
+        isActive:boolean,
         setYearDisplayed:React.Dispatch<React.SetStateAction<number>>,
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        setComponentDisplayed:React.Dispatch<any>}){
+        setComponentDisplayed:React.Dispatch<any>
+    }){
 
     const changeYear = () => {
         setYearDisplayed(year);

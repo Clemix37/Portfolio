@@ -93,6 +93,13 @@ export function About(){
                                 </div>
                                 <div className="ligne">
                                     <span className="tag">
+                                        Rust 
+                                        <IntermediateIcon marginLeft={true} marginRight={false}></IntermediateIcon>
+                                        <FavoriteIcon marginLeft={true} marginRight={false}></FavoriteIcon>
+                                    </span>
+                                </div>
+                                <div className="ligne">
+                                    <span className="tag">
                                         ASP.NET <IntermediateIcon marginLeft={true} marginRight={false}></IntermediateIcon>
                                     </span>
                                 </div>
@@ -138,6 +145,13 @@ export function About(){
                                 <div className="ligne">
                                     <span className="tag">
                                         C# <MasteryIcon marginLeft={true} marginRight={false}></MasteryIcon>
+                                    </span>
+                                </div>
+                                <div className="ligne">
+                                    <span className="tag">
+                                        Rust 
+                                        <IntermediateIcon marginLeft={true} marginRight={false}></IntermediateIcon>
+                                        <FavoriteIcon marginLeft={true} marginRight={false}></FavoriteIcon>
                                     </span>
                                 </div>
                                 <div className="ligne">
@@ -216,7 +230,8 @@ export function About(){
                             <div className="colonne">
                                 {
                                     years.map(yearObj => (
-                                        <Experience key={yearObj.year}
+                                        <Experience 
+                                            key={yearObj.year}
                                             year={yearObj.year} 
                                             component={yearObj.component}
                                             isActive={yearDisplayed === yearObj.year} 

@@ -342,6 +342,22 @@
                     "language": "Javascript"
                 }
             ]
+        },
+        {
+            "id":0,
+            "name": "Rust",
+            "text": "Learning Rust through the book and tutorials. Building some blazingly fast and secure applications",
+            "lien": "",
+            "image": null,
+            "icon": {
+                "type": "fontawesome",
+                "class": "fa-solid fa-user"
+            },
+            "devs": [
+                {
+                    "language": "Rust"
+                }
+            ]
         }
     ]
 }
