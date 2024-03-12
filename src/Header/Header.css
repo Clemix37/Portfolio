@@ -1,12 +1,6 @@
-.navbar-home{height:75px;margin: 10px 10px;}
-.navbar-home .colonne-brand {
-    border-radius: 30px;
-    backdrop-filter: blur(30px);
-    background-color: rgba(65, 65, 65, 0.308);
-    border: 1px solid rgba(255, 255, 255, 0.089);
-}
-.main-content-home{min-height: 70vh !important;}
-.main-content-home h1 {text-align: center;}
+.navbar-home { height: 75px; margin: 10px 10px; }
+.main-content-home { min-height: 70vh !important; }
+.main-content-home h1 { text-align: center; }
 .main-content-home strong {
     text-transform: uppercase;
     background:linear-gradient(-225deg, var(--tertiary) 0%, var(--secondary) 50%, var(--tertiary) 100%);
@@ -16,13 +10,21 @@
     animation: changeBackgroundTitles 2s linear infinite;
     background-size: 200% auto;
 }
-.avatar-container {width:300px;height:300px;border:1px solid var(--secondary);border-radius:50%;overflow:hidden;}
-.avatar{width:inherit;height:inherit;}
-.detailed-title{text-align:center;}
-.detailed-title em {color:var(--secondary);}
+.avatar-container { width: 300px; height: 300px; border: 1px solid var(--secondary); border-radius: 50%; overflow: hidden; }
+.avatar { width: inherit; height: inherit; }
+.detailed-title { text-align: center; }
+.detailed-title em { color:var(--secondary); }
+
+.header-nav-liens a { margin: 5px; }
+.header-nav-liens a:hover { border-bottom: 1px solid var(--secondary); border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; }
 
 @keyframes changeBackgroundTitles {
     to {
         background-position: 200% center;
     }
+}
+
+@media screen and (max-width: 1300px) {
+    .colonne-brand img { width: 150%; }
+    .header-nav-liens { flex-direction: column !important; }
 }

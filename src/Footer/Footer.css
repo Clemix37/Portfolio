@@ -1,2 +1,9 @@
-#footer {height:250px;background-color:var(--sombre);border-top-left-radius: 8px;border-top-right-radius: 8px;}
-#footer span {color:var(--secondary);}
+#footer { min-height: 250px; background-color: var(--sombre); border-top-left-radius: 8px; border-top-right-radius: 8px; }
+#footer span { color: var(--secondary); }
+#footer .buttons-footer { padding: 10px; margin-bottom: 5px; }
+#footer .buttons-footer button { margin: 5px; }
+#footer .creator { padding: 10px; }
+
+@media screen and (max-width: 1000px) {
+    #footer .buttons-footer { flex-direction: column; }
+}

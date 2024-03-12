@@ -1,4 +1,4 @@
-const Links:{
+const Links: {
     youtube: string,
     linkedin: string,
     buyMe: string,

@@ -19,8 +19,9 @@ export function Header() {
                         </div>
                     </div>
                     <div className="colonne justify-content-center">
-                        <div className="ligne justify-content-center">
-                            &nbsp;
+                        <div className="ligne justify-content-center header-nav-liens">
+                            <a className="colonne align-items-center btn btn-rounded" href="#about">About</a>
+                            <a className="colonne align-items-center btn btn-rounded" href="#projects">Projects</a>
                         </div>
                     </div>
                 </div>

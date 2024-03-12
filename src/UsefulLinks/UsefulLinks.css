@@ -1,2 +1,5 @@
-#useful-links{position:fixed;width:50px;right:3%;bottom:80px;max-height: 200px;}
-#useful-links a {background-color:var(--rgba-tertiary-80);margin:5px 0;width:40px;height:40px;}
+#useful-links { position: fixed; width: 50px; left: 3%; bottom: 40%; max-height: 200px; }
+#useful-links a { background-color: var(--rgba-tertiary-80); margin: 5px 0; width: 40px; height: 40px; }
+@media screen and (max-width: 1300px) {
+    #useful-links { display: none; }
+}
