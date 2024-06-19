@@ -358,6 +358,60 @@
                     "language": "Rust"
                 }
             ]
+        },
+        {
+            "id": 0,
+            "name": "Chrono Cosmos",
+            "text": "Creating a incremental game with TypeScript about traveling through space and time",
+            "lien": "https://clemix37.github.io/chrono-cosmos/",
+            "image": {
+                "src": "./images/project-chrono-cosmos.png"
+            },
+            "icon": {
+                "type": "fontawesome",
+                "class": "fa-solid fa-clock"
+            },
+            "devs": [
+                {
+                    "language": "TypeScript"
+                },
+                {
+                    "language": "Javascript"
+                },
+                {
+                    "language": "HTML5"
+                },
+                {
+                    "language": "CSS3"
+                }
+            ]
+        },
+        {
+            "id":0,
+            "name": "Widlife Genesis",
+            "text": "A TypeScript app simulating an ecosystem 🥀🪴",
+            "lien": "https://clemix37.github.io/wildlife-genesis/",
+            "image": {
+                "src": "./images/project-widlife-genesis.png"
+            },
+            "icon": {
+                "type": "fontawesome",
+                "class": "fa-solid fa-flower"
+            },
+            "devs": [
+                {
+                    "language": "TypeScript"
+                },
+                {
+                    "language": "Javascript"
+                },
+                {
+                    "language": "HTML5"
+                },
+                {
+                    "language": "CSS3"
+                }
+            ]
         }
     ]
 }

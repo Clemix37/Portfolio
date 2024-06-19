@@ -7,7 +7,7 @@ export function Projects(){
     const projects = data.projects.map(proj => {
         proj.id = index++;
         return proj;
-    });
+    }).reverse();
 
     return (
         <div id="projects" className="ligne">
