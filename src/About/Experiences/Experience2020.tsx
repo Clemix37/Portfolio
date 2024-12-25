@@ -27,6 +27,13 @@ export function Experience2020(){
                 <span><em>Company</em>: ACD Groupe, Tours, France</span>
             </div>
             <div className="ligne">
+                <span>
+                    Carrying out research on technology unique to the organization. 
+                    Creation of enhancements and fixes to stabilize the version before distributing it to clients. 
+                    Completing technical analyses in accordance with the supplied specifications.
+                </span>
+            </div>
+            <div className="ligne">
                 <a href="https://www.acd-groupe.fr/" title="Website of the company">
                     <img className="image-experience" src={logoACD} />
                 </a>

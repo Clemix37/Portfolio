@@ -1,417 +1,381 @@
 {
-    "projects":[
-        {
-            "id":0,
-            "name": "Voice & Face recognition",
-            "text": "Learning python in High School by building a final year project of voice and facial recognition with nao robot",
-            "image": {
-                "src": "./images/NAO.png"
-            },
-            "icon": null,
-            "lien": "",
-            "devs": [
-                {
-                    "language": "Python"
-                }
-            ]
-        },
-        {
-            "id":0,
-            "name": "Head or Tails",
-            "text": "Simple project where we flip a coin, and get a head or tails",
-            "image": {
-                "src": "./images/flip_coin.png"
-            },
-            "icon": null,
-            "lien": "https://cybers.onrender.com/projects/flip-coin",
-            "devs": [
-                {
-                    "language": "Javascript"
-                },
-                {
-                    "language": "HTML5"
-                },
-                {
-                    "language": "CSS3"
-                }
-            ]
-        },
-        {
-            "id":0,
-            "name": "Spinners",
-            "text": "I was learning how to do spinners in CSS, and custom them with colors with JavaScript",
-            "lien": "https://cybers.onrender.com/projects/spinners",
-            "image": {
-                "src": "./images/spinners.png"
-            },
-            "icon": {
-                "type": "fontawesome",
-                "class": "fa-solid fa-user"
-            },
-            "devs": [
-                {
-                    "language": "Javascript"
-                },
-                {
-                    "language": "HTML5"
-                },
-                {
-                    "language": "CSS3"
-                }
-            ]
-        },
-        {
-            "id":0,
-            "name": "Temperature converter",
-            "text": "Converting Farenheit in Celsius",
-            "lien": "https://cybers.onrender.com/projects/temp-converter",
-            "image": {
-                "src": "./images/temp_converter.png"
-            },
-            "icon": {
-                "type": "fontawesome",
-                "class": "fa-solid fa-user"
-            },
-            "devs": [
-                {
-                    "language": "Javascript"
-                },
-                {
-                    "language": "HTML5"
-                },
-                {
-                    "language": "CSS3"
-                }
-            ]
-        },
-        {
-            "id":0,
-            "name": "Password generator",
-            "text": "Generating passwords with custom options",
-            "lien": "https://cybers.onrender.com/projects/gen-pass",
-            "image": {
-                "src": "./images/pass_gen.png"
-            },
-            "icon": {
-                "type": "fontawesome",
-                "class": "fa-solid fa-user"
-            },
-            "devs": [
-                {
-                    "language": "Javascript"
-                },
-                {
-                    "language": "HTML5"
-                },
-                {
-                    "language": "CSS3"
-                }
-            ]
-        },
-        {
-            "id":0,
-            "name": "Grocery List",
-            "text": "Simple grocery list saved in localStorage",
-            "lien": "https://cybers.onrender.com/projects/my-grocery-list",
-            "image": {
-                "src": "./images/grocery_list.png"
-            },
-            "icon": {
-                "type": "fontawesome",
-                "class": "fa-solid fa-user"
-            },
-            "devs": [
-                {
-                    "language": "HTML5"
-                },
-                {
-                    "language": "CSS3"
-                },
-                {
-                    "language": "JavaScript"
-                },
-                {
-                    "language": "LocalStorage"
-                }
-            ]
-        },
-        {
-            "id":0,
-            "name": "Budget tracker",
-            "text": "Tracking expenses and budget",
-            "lien": "https://cybers.onrender.com/projects/my-balance-js",
-            "image": {
-                "src": "./images/budget_tracker.png"
-            },
-            "icon": {
-                "type": "fontawesome",
-                "class": "fa-solid fa-user"
-            },
-            "devs": [
-                {
-                    "language": "HTML5"
-                },
-                {
-                    "language": "CSS3"
-                },
-                {
-                    "language": "JavaScript"
-                },
-                {
-                    "language": "LocalStorage"
-                }
-            ]
-        },
-        {
-            "id":0,
-            "name": "Temporary todos",
-            "text": "Lists and todos saved in the local storage",
-            "lien": "https://cybers.onrender.com/projects/temporary-todos",
-            "image": {
-                "src": "./images/temp_todos.png"
-            },
-            "icon": {
-                "type": "fontawesome",
-                "class": "fa-solid fa-user"
-            },
-            "devs": [
-                {
-                    "language": "HTML5"
-                },
-                {
-                    "language": "CSS3"
-                },
-                {
-                    "language": "JavaScript"
-                },
-                {
-                    "language": "LocalStorage"
-                }
-            ]
-        },
-        {
-            "id":0,
-            "name": "Todo list",
-            "text": "List and todos saved in database NoSQL (mongoDB)",
-            "lien": "https://cybers.onrender.com/projects/todos",
-            "image": {
-                "src": "./images/my_tasks.png"
-            },
-            "icon": {
-                "type": "fontawesome",
-                "class": "fa-solid fa-user"
-            },
-            "devs": [
-                {
-                    "language": "HTML5"
-                },
-                {
-                    "language": "CSS3"
-                },
-                {
-                    "language": "NodeJS"
-                },
-                {
-                    "language": "Javascript"
-                },
-                {
-                    "language": "MongoDB"
-                }
-            ]
-        },
-        {
-            "id":0,
-            "name": "Cybers",
-            "text": "User Auth system, roles, saving images, creating notes etc",
-            "lien": "https://cybers.onrender.com/",
-            "image": {
-                "src": "./images/cybers.png"
-            },
-            "icon": {
-                "type": "fontawesome",
-                "class": "fa-solid fa-user"
-            },
-            "devs": [
-                {
-                    "language": "HTML5"
-                },
-                {
-                    "language": "CSS3"
-                },
-                {
-                    "language": "NodeJS"
-                },
-                {
-                    "language": "Javascript"
-                },
-                {
-                    "language": "MongoDB"
-                }
-            ]
-        },
-        {
-            "id":0,
-            "name": "Nation it !",
-            "text": "Re-creation of 'Cybers' but with React",
-            "lien": "https://nation-it.onrender.com/",
-            "image": {
-                "src": "./images/nation_it.png"
-            },
-            "icon": {
-                "type": "fontawesome",
-                "class": "fa-solid fa-user"
-            },
-            "devs": [
-                {
-                    "language": "HTML5"
-                },
-                {
-                    "language": "CSS3"
-                },
-                {
-                    "language": "NodeJS"
-                },
-                {
-                    "language": "React"
-                },
-                {
-                    "language": "Javascript"
-                },
-                {
-                    "language": "MongoDB"
-                }
-            ]
-        },
-        {
-            "id":0,
-            "name": "Do it !",
-            "text": "Lists and tasks filtered by no started, doing, and done saved in localStorage and installable as a PWA",
-            "lien": "https://clemix37.github.io/do-it/",
-            "image": {
-                "src": "./images/do_it.png"
-            },
-            "icon": {
-                "type": "fontawesome",
-                "class": "fa-solid fa-user"
-            },
-            "devs": [
-                {
-                    "language": "HTML5"
-                },
-                {
-                    "language": "CSS3"
-                },
-                {
-                    "language": "React"
-                },
-                {
-                    "language": "Javascript"
-                },
-                {
-                    "language": "LocalStorage"
-                },
-                {
-                    "language": "PWA"
-                }
-            ]
-        },
-        {
-            "id":0,
-            "name": "Portfolio",
-            "text": "Re-creation of my Portfolio with React & TypeScript",
-            "lien": "https://cyberwebdev.fr",
-            "image": null,
-            "icon": {
-                "type": "fontawesome",
-                "class": "fa-solid fa-user"
-            },
-            "devs": [
-                {
-                    "language": "HTML5"
-                },
-                {
-                    "language": "CSS3"
-                },
-                {
-                    "language": "TypeScript"
-                },
-                {
-                    "language": "React"
-                },
-                {
-                    "language": "Javascript"
-                }
-            ]
-        },
-        {
-            "id":0,
-            "name": "Rust",
-            "text": "Learning Rust through the book and tutorials. Building some blazingly fast and secure applications",
-            "lien": "",
-            "image": null,
-            "icon": {
-                "type": "fontawesome",
-                "class": "fa-solid fa-user"
-            },
-            "devs": [
-                {
-                    "language": "Rust"
-                }
-            ]
-        },
-        {
-            "id": 0,
-            "name": "Chrono Cosmos",
-            "text": "Creating a incremental game with TypeScript about traveling through space and time",
-            "lien": "https://clemix37.github.io/chrono-cosmos/",
-            "image": {
-                "src": "./images/project-chrono-cosmos.png"
-            },
-            "icon": {
-                "type": "fontawesome",
-                "class": "fa-solid fa-clock"
-            },
-            "devs": [
-                {
-                    "language": "TypeScript"
-                },
-                {
-                    "language": "Javascript"
-                },
-                {
-                    "language": "HTML5"
-                },
-                {
-                    "language": "CSS3"
-                }
-            ]
-        },
-        {
-            "id":0,
-            "name": "Widlife Genesis",
-            "text": "A TypeScript app simulating an ecosystem 🥀🪴",
-            "lien": "https://clemix37.github.io/wildlife-genesis/",
-            "image": {
-                "src": "./images/project-widlife-genesis.png"
-            },
-            "icon": {
-                "type": "fontawesome",
-                "class": "fa-solid fa-flower"
-            },
-            "devs": [
-                {
-                    "language": "TypeScript"
-                },
-                {
-                    "language": "Javascript"
-                },
-                {
-                    "language": "HTML5"
-                },
-                {
-                    "language": "CSS3"
-                }
-            ]
-        }
-    ]
+	"projects": [
+		{
+			"id": 0,
+			"name": "Voice & Face recognition",
+			"text": "Learning python in High School by building a final year project of voice and facial recognition with nao robot",
+			"image": {
+				"src": "./images/NAO.png",
+				"classes": "little-img-project"
+			},
+			"icon": null,
+			"lien": "",
+			"devs": [
+				{
+					"language": "Python"
+				}
+			]
+		},
+		{
+			"id": 0,
+			"name": "Head or Tails",
+			"text": "Simple project where we flip a coin, and get a head or tails",
+			"image": {
+				"src": "./images/flip_coin.png",
+				"classes": null
+			},
+			"icon": null,
+			"lien": "https://cybers.onrender.com/projects/flip-coin",
+			"devs": [
+				{
+					"language": "Javascript"
+				},
+				{
+					"language": "HTML5"
+				},
+				{
+					"language": "CSS3"
+				}
+			]
+		},
+		{
+			"id": 0,
+			"name": "Spinners",
+			"text": "I was learning how to do spinners in CSS, and custom them with colors with JavaScript",
+			"lien": "https://cybers.onrender.com/projects/spinners",
+			"image": {
+				"src": "./images/spinners.png",
+				"classes": null
+			},
+			"icon": {
+				"type": "fontawesome",
+				"class": "fa-solid fa-user"
+			},
+			"devs": [
+				{
+					"language": "Javascript"
+				},
+				{
+					"language": "HTML5"
+				},
+				{
+					"language": "CSS3"
+				}
+			]
+		},
+		{
+			"id": 0,
+			"name": "Temperature converter",
+			"text": "Converting Farenheit in Celsius",
+			"lien": "https://cybers.onrender.com/projects/temp-converter",
+			"image": {
+				"src": "./images/temp_converter.png",
+				"classes": null
+			},
+			"icon": {
+				"type": "fontawesome",
+				"class": "fa-solid fa-user"
+			},
+			"devs": [
+				{
+					"language": "Javascript"
+				},
+				{
+					"language": "HTML5"
+				},
+				{
+					"language": "CSS3"
+				}
+			]
+		},
+		{
+			"id": 0,
+			"name": "10+ JS Projects",
+			"text": "Creating multiple JS projects",
+			"lien": "https://clemix37.github.io/js-projects/",
+			"image": {
+				"src": "./images/js-projects.png",
+				"classes": null
+			},
+			"icon": {
+				"type": "fontawesome",
+				"class": "fa-solid fa-user"
+			},
+			"devs": [
+				{
+					"language": "Javascript"
+				},
+				{
+					"language": "HTML5"
+				},
+				{
+					"language": "CSS3"
+				}
+			]
+		},
+		{
+			"id": 0,
+			"name": "Grocery List",
+			"text": "Simple grocery list saved in localStorage",
+			"lien": "https://cybers.onrender.com/projects/my-grocery-list",
+			"image": {
+				"src": "./images/grocery_list.png",
+				"classes": null
+			},
+			"icon": {
+				"type": "fontawesome",
+				"class": "fa-solid fa-user"
+			},
+			"devs": [
+				{
+					"language": "HTML5"
+				},
+				{
+					"language": "CSS3"
+				},
+				{
+					"language": "JavaScript"
+				},
+				{
+					"language": "LocalStorage"
+				}
+			]
+		},
+		{
+			"id": 0,
+			"name": "Budget tracker",
+			"text": "Tracking expenses and budget",
+			"lien": "https://cybers.onrender.com/projects/my-balance-js",
+			"image": {
+				"src": "./images/budget_tracker.png",
+				"classes": null
+			},
+			"icon": {
+				"type": "fontawesome",
+				"class": "fa-solid fa-user"
+			},
+			"devs": [
+				{
+					"language": "HTML5"
+				},
+				{
+					"language": "CSS3"
+				},
+				{
+					"language": "JavaScript"
+				},
+				{
+					"language": "LocalStorage"
+				}
+			]
+		},
+		{
+			"id": 0,
+			"name": "Temporary todos",
+			"text": "Lists and todos saved in the local storage",
+			"lien": "https://cybers.onrender.com/projects/temporary-todos",
+			"image": {
+				"src": "./images/temp_todos.png",
+				"classes": null
+			},
+			"icon": {
+				"type": "fontawesome",
+				"class": "fa-solid fa-user"
+			},
+			"devs": [
+				{
+					"language": "HTML5"
+				},
+				{
+					"language": "CSS3"
+				},
+				{
+					"language": "JavaScript"
+				},
+				{
+					"language": "LocalStorage"
+				}
+			]
+		},
+		{
+			"id": 0,
+			"name": "Todo list",
+			"text": "List and todos saved in database NoSQL (mongoDB)",
+			"lien": "https://cybers.onrender.com/projects/todos",
+			"image": {
+				"src": "./images/my_tasks.png",
+				"classes": null
+			},
+			"icon": {
+				"type": "fontawesome",
+				"class": "fa-solid fa-user"
+			},
+			"devs": [
+				{
+					"language": "HTML5"
+				},
+				{
+					"language": "CSS3"
+				},
+				{
+					"language": "NodeJS"
+				},
+				{
+					"language": "Javascript"
+				},
+				{
+					"language": "MongoDB"
+				}
+			]
+		},
+		{
+			"id": 0,
+			"name": "Cybers",
+			"text": "User Auth system, roles, saving images, creating notes etc",
+			"lien": "https://cybers.onrender.com/",
+			"image": {
+				"src": "./images/cybers.png",
+				"classes": null
+			},
+			"icon": {
+				"type": "fontawesome",
+				"class": "fa-solid fa-user"
+			},
+			"devs": [
+				{
+					"language": "HTML5"
+				},
+				{
+					"language": "CSS3"
+				},
+				{
+					"language": "NodeJS"
+				},
+				{
+					"language": "Javascript"
+				},
+				{
+					"language": "MongoDB"
+				}
+			]
+		},
+		{
+			"id": 0,
+			"name": "Do it !",
+			"text": "Lists and tasks filtered by no started, doing, and done saved in localStorage and installable as a PWA",
+			"lien": "https://clemix37.github.io/do-it/",
+			"image": {
+				"src": "./images/do_it.png",
+				"classes": null
+			},
+			"icon": {
+				"type": "fontawesome",
+				"class": "fa-solid fa-user"
+			},
+			"devs": [
+				{
+					"language": "HTML5"
+				},
+				{
+					"language": "CSS3"
+				},
+				{
+					"language": "React"
+				},
+				{
+					"language": "Javascript"
+				},
+				{
+					"language": "LocalStorage"
+				},
+				{
+					"language": "PWA"
+				}
+			]
+		},
+		{
+			"id": 0,
+			"name": "Portfolio",
+			"text": "Re-creation of my Portfolio with React & TypeScript",
+			"lien": "https://cyberwebdev.fr",
+			"image": null,
+			"icon": {
+				"type": "fontawesome",
+				"class": "fa-solid fa-user"
+			},
+			"devs": [
+				{
+					"language": "HTML5"
+				},
+				{
+					"language": "CSS3"
+				},
+				{
+					"language": "TypeScript"
+				},
+				{
+					"language": "React"
+				},
+				{
+					"language": "Javascript"
+				}
+			]
+		},
+		{
+			"id": 0,
+			"name": "Chrono Cosmos",
+			"text": "Creating a incremental game with TypeScript about traveling through space and time",
+			"lien": "https://clemix37.github.io/chrono-cosmos/",
+			"image": {
+				"src": "./images/project-chrono-cosmos.png",
+				"classes": null
+			},
+			"icon": {
+				"type": "fontawesome",
+				"class": "fa-solid fa-clock"
+			},
+			"devs": [
+				{
+					"language": "TypeScript"
+				},
+				{
+					"language": "Javascript"
+				},
+				{
+					"language": "HTML5"
+				},
+				{
+					"language": "CSS3"
+				}
+			]
+		},
+		{
+			"id": 0,
+			"name": "Widlife Genesis",
+			"text": "A TypeScript app simulating an ecosystem 🥀🪴",
+			"lien": "https://clemix37.github.io/wildlife-genesis/",
+			"image": {
+				"src": "./images/project-widlife-genesis.png",
+				"classes": null
+			},
+			"icon": {
+				"type": "fontawesome",
+				"class": "fa-solid fa-flower"
+			},
+			"devs": [
+				{
+					"language": "TypeScript"
+				},
+				{
+					"language": "Javascript"
+				},
+				{
+					"language": "HTML5"
+				},
+				{
+					"language": "CSS3"
+				}
+			]
+		}
+	]
 }

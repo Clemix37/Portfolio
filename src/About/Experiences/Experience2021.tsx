@@ -7,7 +7,7 @@ export function Experience2021(){
             <div className="ligne">
                 <h2>
                     <FavoriteIcon marginRight={true} marginLeft={false}></FavoriteIcon>
-                    Associate degree in Informatic Systems (August 2021)
+                    Associate degree in Informatic Systems (August 2021) - 2nd place
                 </h2>
             </div>
             <div className="ligne">
@@ -38,7 +38,11 @@ export function Experience2021(){
                 </h2>
             </div>
             <div className="ligne">
-                <span>Developing the <em>client needs</em> of accountants</span>
+                <span>
+                    Conducting technological research to create the different internal and external software. 
+                    Web consultant working with several groups. Drafting specs with the <em>needs of the customer</em> in mind. 
+                    Analyzing an API in order to incorporate it into programs that already exist.
+                </span>
             </div>
             <div className="ligne">
                 <span>ACD Groupe, Tours, France</span>

@@ -3,7 +3,7 @@ import { Experience } from "./Experiences/Experience";
 import { Experience2019 } from "./Experiences/Experience2019";
 import { Experience2020 } from "./Experiences/Experience2020";
 import { Experience2021 } from "./Experiences/Experience2021";
-import { Experience2023 } from "./Experiences/Experience2023";
+import { Experience2024 } from "./Experiences/Experience2024";
 import { FavoriteIcon } from "./Icons/FavoriteIcon";
 import { IntermediateIcon } from "./Icons/IntermediateIcon";
 import { KnowledgeIcon } from "./Icons/KnowledgeIcon";
@@ -13,12 +13,11 @@ import { useState } from "react";
 export function About(){
     const [yearDisplayed, setYearDisplayed] = useState(2019);
     const [componentDisplayed, setComponentDisplayed] = useState(<Experience2019></Experience2019>);
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const years:{year:number, component:any}[] = [
+    const years:{year:number, component:JSX.Element}[] = [
         {year: 2019, component: <Experience2019></Experience2019>}, 
         {year: 2020, component: <Experience2020></Experience2020>}, 
         {year: 2021, component: <Experience2021></Experience2021>},
-        {year: 2023, component: <Experience2023></Experience2023>},
+        {year: 2024, component: <Experience2024></Experience2024>},
     ];
 
     return (
@@ -93,19 +92,18 @@ export function About(){
                                 </div>
                                 <div className="ligne">
                                     <span className="tag">
-                                        Rust 
-                                        <IntermediateIcon marginLeft={true} marginRight={false}></IntermediateIcon>
-                                        <FavoriteIcon marginLeft={true} marginRight={false}></FavoriteIcon>
-                                    </span>
-                                </div>
-                                <div className="ligne">
-                                    <span className="tag">
                                         ASP.NET <IntermediateIcon marginLeft={true} marginRight={false}></IntermediateIcon>
                                     </span>
                                 </div>
                                 <div className="ligne">
                                     <span className="tag">
                                         Electron <IntermediateIcon marginLeft={true} marginRight={false}></IntermediateIcon>
+                                    </span>
+                                </div>
+                                <div className="ligne">
+                                    <span className="tag">
+                                        Rust 
+                                        <KnowledgeIcon marginLeft={true} marginRight={false}></KnowledgeIcon>
                                     </span>
                                 </div>
                                 <div className="ligne">
@@ -149,19 +147,18 @@ export function About(){
                                 </div>
                                 <div className="ligne">
                                     <span className="tag">
-                                        Rust 
-                                        <IntermediateIcon marginLeft={true} marginRight={false}></IntermediateIcon>
-                                        <FavoriteIcon marginLeft={true} marginRight={false}></FavoriteIcon>
-                                    </span>
-                                </div>
-                                <div className="ligne">
-                                    <span className="tag">
                                         .NET <IntermediateIcon marginLeft={true} marginRight={false}></IntermediateIcon>
                                     </span>
                                 </div>
                                 <div className="ligne">
                                     <span className="tag">
                                         Python <IntermediateIcon marginLeft={true} marginRight={false}></IntermediateIcon>
+                                    </span>
+                                </div>
+                                <div className="ligne">
+                                    <span className="tag">
+                                        Rust 
+                                        <KnowledgeIcon marginLeft={true} marginRight={false}></KnowledgeIcon>
                                     </span>
                                 </div>
                             </div>
