@@ -1,31 +1,54 @@
-:root{
-	--primary: #1a1a1a;
-	--secondary: #2191FB;
-	--secondary-variation: #87c4fb;
-	--tertiary: #CBEEF3;
-	--erreur: #FF1053;
-	--texte: #FFFFFF;
-	--sombre: #1F1F1F;
-	--yellow: #f0f02d;
-	--success: #28db28;
-	--warning: #f7ae27;
-	/* RGBA */
-	--rgba-primary-0: rgba(26,26,26,0);
-	--rgba-primary-80: rgba(26,26,26,0.8);
-	--rgba-primary-60: rgba(26,26,26,0.6);
-	--rgba-secondary-80: rgba(33,145,251,0.8);
-	--rgba-secondary-60: rgba(33,145,251,0.6);
-	--rgba-tertiary-80: rgba(203,238,243,0.8);
-	--rgba-tertiary-60: rgba(203,238,243,0.6);
-	--rgba-sombre-80: rgba(31,31,31,0.8);
-	--rgba-sombre-60: rgba(31,31,31,0.6);
+:root {
+    --primary: #1a1a1a;
+    --secondary: #00A7E1;
+    --secondary-variation: #007EA7;
+    --tertiary: #CBEEF3;
+    --erreur: #FF1053;
+    --texte: #FFFFFF;
+    --sombre: #1F1F1F;
+    --yellow: #f0f02d;
+    --success: #28db28;
+    --warning: #f7ae27;
+    /* RGBA */
+    --rgba-primary-0: rgba(26, 26, 26, 0);
+    --rgba-primary-80: rgba(26, 26, 26, 0.8);
+    --rgba-primary-60: rgba(26, 26, 26, 0.6);
+    --rgba-secondary-80: rgba(0, 167, 225, 0.8);
+    --rgba-secondary-60: rgba(0, 167, 225, 0.6);
+    --rgba-tertiary-80: rgba(0, 126, 167, 0.8);
+    --rgba-tertiary-60: rgba(0, 126, 167, 0.6);
+    --rgba-sombre-80: rgba(31, 31, 31, 0.8);
+    --rgba-sombre-60: rgba(31, 31, 31, 0.6);
 }
 
-.color-primary{color:var(--primary);}
-.color-secondary{color:var(--secondary);}
-.color-secondary-variation{color:var(--secondary-variation);}
-.color-tertiary{color:var(--tertiary);}
-.color-yellow{color:var(--yellow);}
-.color-error{color:var(--erreur);}
-.color-success{color:var(--success);}
-.color-warning{color:var(--warning);}
+.color-primary {
+    color: var(--primary);
+}
+
+.color-secondary {
+    color: var(--secondary);
+}
+
+.color-secondary-variation {
+    color: var(--secondary-variation);
+}
+
+.color-tertiary {
+    color: var(--tertiary);
+}
+
+.color-yellow {
+    color: var(--yellow);
+}
+
+.color-error {
+    color: var(--erreur);
+}
+
+.color-success {
+    color: var(--success);
+}
+
+.color-warning {
+    color: var(--warning);
+}

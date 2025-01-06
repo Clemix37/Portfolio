@@ -1,5 +1,3 @@
-import logoACD from "../../assets/images/Logo_ACD_Groupe.png";
-
 export function Experience2024() {
 	return (
 		<>
@@ -17,25 +15,6 @@ export function Experience2024() {
 					technological feasibility. Changes related to <em>customer requests</em> and QA are also studied for
 					their relevance. Doing <em>internal training</em> on programming languages and business tools.
 				</span>
-			</div>
-			<div className="ligne">
-				<h2>
-					Lead Developer <i className="fa-solid fa-users-rays color-success margin-left-icon"></i> - October
-					2024
-				</h2>
-			</div>
-			<div className="ligne">
-				<span>ACD Groupe, Tours, France</span>
-			</div>
-			<div className="ligne">
-				<a
-					href="https://www.acd-groupe.fr/"
-					title="Website of the company">
-					<img
-						className="image-experience"
-						src={logoACD}
-					/>
-				</a>
 			</div>
 		</>
 	);
