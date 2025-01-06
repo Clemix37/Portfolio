@@ -1,5 +1,4 @@
 import "./About.css";
-import { Experience } from "./Experiences/Experience";
 import { Experience2019 } from "./Experiences/Experience2019";
 import { Experience2020 } from "./Experiences/Experience2020";
 import { Experience2021 } from "./Experiences/Experience2021";
@@ -21,6 +20,10 @@ export function About() {
 		{ year: 2024, component: <Experience2024></Experience2024> },
 		{ year: 2025, component: <Experience2025></Experience2025> },
 	];
+	const changeYear = (year: number, component: JSX.Element) => {
+		setYearDisplayed(year);
+		setComponentDisplayed(component);
+	};
 
 	return (
 		<div
@@ -326,13 +329,15 @@ export function About() {
 						<div className="ligne timeline">
 							<div className="colonne">
 								{years.map((yearObj) => (
-									<Experience
-										key={yearObj.year}
-										year={yearObj.year}
-										component={yearObj.component}
-										isActive={yearDisplayed === yearObj.year}
-										setYearDisplayed={setYearDisplayed}
-										setComponentDisplayed={setComponentDisplayed}></Experience>
+									<div className="ligne experience">
+										<span
+											onClick={() => changeYear(yearObj.year, yearObj.component)}
+											className={`timeline-page ${
+												yearDisplayed === yearObj.year ? "timeline-page-active" : ""
+											}`}>
+											{yearObj.year}
+										</span>
+									</div>
 								))}
 							</div>
 						</div>
